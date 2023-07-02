@@ -16,6 +16,7 @@ DO NOT install with pip install bark. This is a different package!!!
 
 Run bark to check for the missing dependencies and install with `yay -S python-<pkg-name>`
 
+Warning: First time running bark will download muliple 3G+ big files.
 ## Play audio
 The bark script uses `mpv` to play the audio.
 `sudo pacman -S mpv` if not installed
