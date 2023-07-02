@@ -10,7 +10,7 @@ Play the "Guess the correct number" -game with an "AI" (by communitacting with v
 3. Dont forgett to unzip.
 
 ### Install bark (text-to-audio) (yes text to audio and not speech)
-`pip install git+https://github.com/suno-ai/bark.git`
+`pip install git+https://github.com/suno-ai/bark.git --break-system-packages`
 
 DO NOT install with pip install bark. This is a different package!!!
 
