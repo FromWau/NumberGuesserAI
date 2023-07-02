@@ -8,7 +8,7 @@ VOSK_MODEL_PATH="$HOME/.local/share/vosk-models/vosk-model-en-us-0.22/"
 
 talk() {
     notify-send "AI" "$1"
-    bark "$1" >/dev/null
+    python bark.py "$1" >/dev/null
 }
 
 listen() {
